@@ -1,9 +1,18 @@
-$color1: #090b0b;
-$color2: #89A1A9;
-$color3: #67848E;
-$color4: #5E6572;
-$color5: #dde8f6c7;
-$color6: #EEF1EF;
-$color7: #08152c;
-$color8: #011b47;
-$active: #61c7e085;
+// Color pallete
+$darkest: #0b090a;
+$darker: #161a1d;
+$dark: #660708;
+$primaryd: #a4161a;
+$primary: #ba181b;
+$primaryl: #e5383b;
+$gray: #b1a1a6;
+$light: #d3d3d3;
+$lighter: #f5f3f4;
+$lightest: #ffffff;
+
+// Mixins
+@mixin center {
+    display: flex;
+    justify-content: center;
+}
+

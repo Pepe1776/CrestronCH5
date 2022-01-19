@@ -3,7 +3,7 @@
 //     loaderOptions: {
 //       sass: {
 //         additionalData: `
-//           @import "@/scss/_variables.scss";
+//           @import "@src/sass/abstracts.scss";
 //         `,
 //       },
 //     },

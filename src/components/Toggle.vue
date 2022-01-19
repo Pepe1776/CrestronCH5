@@ -38,7 +38,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: $color1;
+  background-color: $darkest;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -49,15 +49,15 @@ export default {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: $color6;
+  background-color: $lightest;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 input:checked + .toggler {
-  background-color: $color3;
+  background-color: $primary;
 }
 input:focus + .toggler {
-  box-shadow: 0 0 2px $color4;
+  box-shadow: 0 0 2px $primaryl;
 }
 input:checked + .toggler:before {
   -webkit-transform: translateX(26px);

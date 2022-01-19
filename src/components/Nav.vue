@@ -26,16 +26,16 @@ export default {
 @import "../Sass/abstracts.scss";
 
 header {
-  bottom: 0;
-  position: absolute;
+  bottom: 0rem;
+  position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px, 25px;
-  height: 6rem;
-  background-color: $color5;
-  transition: background 0.3s ease-in-out;
+  height: 10%;
+  background-color: $lighter;
+  transition: background 0.6s ease-in-out;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -47,7 +47,7 @@ header h1 {
 header nav {
   display: flex;
   height: 6rem;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 header nav .nav-link {
   display: flex;
@@ -57,11 +57,13 @@ header nav .nav-link {
   border-radius: 2rem;
 }
 header nav .nav-link:hover {
-  background-color: $color6;
-  transform: scale(1.2);
+  color: $primary;
+  border: 3px solid black;
+  // background-color: $darkest;
+  transform: scale(1.1);
 }
 .dark header {
-  background: $color1;
+  background: $darkest;
 }
 // #nav {
 //   padding: 30px;
@@ -69,24 +71,28 @@ header nav .nav-link:hover {
 
 nav a {
   font-weight: bold;
-  color: $color8;
+  color: $darker;
 }
 nav a .router-link:active {
-  color: $color3;
+  color: $primaryl;
 }
 .dark header nav .nav-link:visited {
-  color: $color6;
+  color: $lighter;
 }
 .dark header nav .nav-link:hover {
-  background-color: $active;
-  transform: scale(1.2);
+  color: $primary;
+  background-color: $lighter;
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
 }
 .dark header nav .nav-link:active {
-  background-color: $active;
-  transform: scale(1.2);
+  color: $primary;
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
 }
 .active {
-  background-color: $active;
+  background-color: $primary;
   transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
 }
 </style>

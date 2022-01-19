@@ -46,19 +46,19 @@ export default {
 .app {
   width: 100vw;
   min-height: 100vh;
-  background-color: $color6;
-  color: $color1;
+  background-color: $lightest;
+  color: $darkest;
   transition: background 0.3s ease-in-out;
 }
 .dark {
-  background-color: $color1;
-  color: $color5;
+  background-color: $darkest;
+  color: $lighter;
 }
 #app {
   font-family: "Aquire", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: $color1;
+  color: $darkest;
 }
 </style>
