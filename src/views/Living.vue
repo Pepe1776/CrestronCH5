@@ -1,23 +1,23 @@
 <script>
-export default {};
+import SourceBar from "../components/SouceBar.vue";
+export default { components: { SourceBar } };
 </script>
 
 <template>
-  <div class="Container">
-    <div class="source">
-      <div class="source-bar center">
-        <router-link to="watch1" class="source-bar-link">Watch</router-link>
-        <router-link to="listen1" class="source-bar-link">Listen</router-link>
-        <router-link to="lighting1" class="source-bar-link"
-          >Lighting</router-link
-        >
-        <router-link to="scenes1" class="source-bar-link">Scenes</router-link>
-      </div>
+  <router-view />
+  <SourceBar />
+  <div class="Container"></div>
+  <div v-show="isShow" class="watch-bar">
+    <div class="watch-bar-buttons">
+      <button class="watch-bar-buttons-b1">Button</button>
+      <button class="watch-bar-buttons-b2">Button</button>
+      <button class="watch-bar-buttons-b3">Button</button>
+      <button class="watch-bar-buttons-b4">Button</button>
     </div>
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "../Sass/abstracts.scss";
 .source {
   position: relative;
