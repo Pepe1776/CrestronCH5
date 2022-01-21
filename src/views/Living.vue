@@ -1,13 +1,15 @@
 <script>
 import SourceBar from "../components/SouceBar.vue";
-export default { components: { SourceBar } };
+export default {
+  components: { SourceBar },
+};
 </script>
 
 <template>
   <router-view />
   <SourceBar />
   <div class="Container"></div>
-  <div v-show="isShow" class="watch-bar">
+  <div class="watch-bar">
     <div class="watch-bar-buttons">
       <button class="watch-bar-buttons-b1">Button</button>
       <button class="watch-bar-buttons-b2">Button</button>
@@ -44,5 +46,12 @@ export default { components: { SourceBar } };
   border: 3px solid black;
   // background-color: $darkest;
   transform: scale(1.1);
+}
+.watch-bar-buttons {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 </style>

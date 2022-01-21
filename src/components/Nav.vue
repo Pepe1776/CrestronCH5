@@ -11,7 +11,7 @@ export default {
 <template>
   <header>
     <nav>
-      <router-link :class="active" class="nav-link" to="/">Home</router-link>
+      <router-link class="nav-link" to="/">Home</router-link>
       <router-link class="nav-link" to="/Living">Living</router-link>
       <router-link class="nav-link" to="/Family">Family</router-link>
       <router-link class="nav-link" to="/Bedroom">Bedroom</router-link>

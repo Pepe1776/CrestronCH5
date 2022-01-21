@@ -5,10 +5,10 @@ export default {};
 <template>
   <div class="source">
     <div class="source-bar">
-      <button @click="isShow = !isShow" class="source-bar-watch">Watch</button>
-      <button class="source-bar-listen">Listen</button>
-      <button class="source-bar-lighting">Lighting</button>
-      <button class="source-bar-scenes">Scenes</button>
+      <button class="source-bar-link">Watch</button>
+      <button class="source-bar-link">Listen</button>
+      <button class="source-bar-link">Lighting</button>
+      <button class="source-bar-link">Scenes</button>
     </div>
   </div>
 </template>
