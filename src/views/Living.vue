@@ -6,6 +6,7 @@ export default {
 </script>
 
 <template>
+  <h1>Living Room</h1>
   <router-view />
   <SourceBar />
 </template>

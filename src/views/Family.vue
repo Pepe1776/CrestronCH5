@@ -7,6 +7,7 @@ export default {
 
 <template>
   <div class="Family">
+    <h1>Family</h1>
     <SourceBar />
   </div>
 </template>

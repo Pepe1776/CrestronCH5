@@ -1,19 +1,25 @@
-<!-- <script>
-import VueWeather from "vue-weather-widget";
+<!-- <template>
+  <vue-iframe
+    :src="src"
+    allow="camera *; geolocation *; microphone *; autoplay *"
+    frame-id="my-ifram"
+    @load="onLoad"
+    name="my-frame"
+    width="150px"
+    height="200px"
+  />
+</template>
 
+<script>
 export default {
-  components: {
-    VueWeather,
+  name: "MyIframe",
+  data: () => ({
+    myIframe: null,
+  }),
+  methods: {
+    onLoad(frame) {
+      this.myIframe = frame.contentWindow;
+    },
   },
 };
-</script>
-
-<template>
-  <!-- Open Weather Map -->
-  <!-- <vue-weather
-    api-key="ff70f70eb00b538370940bc7e3a97883"
-    units="us"
-    :latitude="33.3062"
-    :longitude="111.8413"
-  /> -->
-<!-- </template> --> -->
+</script> -->

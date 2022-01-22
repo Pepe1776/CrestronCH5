@@ -61,4 +61,7 @@ export default {
   text-align: center;
   color: $darkest;
 }
+h1 {
+  font-size: 7rem;
+}
 </style>
