@@ -1,8 +1,5 @@
 <template>
-  <div class="home">
-    <!-- <Weather /> -->
-    <Icon icon="ph:house"></Icon>
-  </div>
+  <div class="home"></div>
 </template>
 
 <script>

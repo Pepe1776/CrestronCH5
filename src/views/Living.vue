@@ -8,15 +8,6 @@ export default {
 <template>
   <router-view />
   <SourceBar />
-  <div class="Container"></div>
-  <div class="watch-bar">
-    <div class="watch-bar-buttons">
-      <button class="watch-bar-buttons-b1">Button</button>
-      <button class="watch-bar-buttons-b2">Button</button>
-      <button class="watch-bar-buttons-b3">Button</button>
-      <button class="watch-bar-buttons-b4">Button</button>
-    </div>
-  </div>
 </template>
 
 <style lang="scss">

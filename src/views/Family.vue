@@ -1,5 +1,12 @@
+<script>
+import SourceBar from "../components/SouceBar.vue";
+export default {
+  components: { SourceBar },
+};
+</script>
+
 <template>
-  <div class="about">
-    <h1>Family</h1>
+  <div class="Family">
+    <SourceBar />
   </div>
 </template>
